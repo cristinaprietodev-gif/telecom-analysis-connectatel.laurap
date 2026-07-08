@@ -2,12 +2,8 @@
 
 ## 🎯 Objetivo del Proyecto
 El objetivo de este proyecto es realizar un análisis exploratorio de datos (EDA) y una segmentación estratégica de la base de clientes de ConnectaTel, traduciendo variables de consumo (llamadas, minutos y mensajes) en insights de negocio accionables.
-
-## 📊 Dataset Utilizado
 ## 📊 Datasets Utilizados en el Proyecto
-
 Para el desarrollo de este análisis se utilizaron e integraron los siguientes tres conjuntos de datos:
-
 | **`plans.csv`** | Información sobre las tarifas y planes actuales ofrecidos a los usuarios. | Precio, minutos incluidos, GB incluidos, costo por consumo extra. |
 | **`users_latam.csv`** | Registro detallado con la información demográfica de los clientes. | `user_id`, `age` (edad), `city` (ciudad), `reg_date` (fecha de registro), `plan` contratado. |
 | **`usage.csv`** | Detalle del consumo real de los usuarios en la plataforma. | `id`, `user_id`, `duration` (duración de llamadas), `length` (longitud de mensajes), `type`. |
